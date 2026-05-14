@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (raw data - too large, should not be on GitHub)
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.pkl
+data/
+
+# Output (results can be regenerated)
+output/
+!output/mechanism_final/*.docx
+!output/mechanism_final/*.md
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
